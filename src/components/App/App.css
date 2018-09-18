@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding-bottom: 80px;
+}
+
+.header {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+  color: #f1f1f1;
+  background: #03C6A6;
+  padding: 40px;
+  border: #f1f1f1;
+}
+
+/* from List.js */
+.todo {
+  color: #f1f1f1;
+  padding: 10px;
+  margin: 20px;
+  background: #FC3959;
+  border: solid 1px #03C6A6;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.1);
+  transition: transform .2s ease;
+}
+
+.todo:hover {
+  transform: scale(1.02);
+  background: #03C6A6;
+}
+
+/* The add note button */
+.btn {
+  position: fixed;
+  z-index: 1;
+  right: 40px;
+  bottom: 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 80px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #f1f1f1;
+  background: #FC3959;
+  cursor: pointer;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.8);
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.8);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.8);
+  transition: transform .06s ease;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+/* Textinput */
+.textInput {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  background: #03C6A6;
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  color: #f1f1f1;
+}
