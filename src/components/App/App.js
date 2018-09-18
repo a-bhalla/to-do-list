@@ -8,7 +8,7 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    //noteText = values entered in,
+    //textInput = values entered in
     this.state ={
       addTodo: '',
       list: [],
