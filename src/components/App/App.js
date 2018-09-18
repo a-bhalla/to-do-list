@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import List from '../List/List';
 import './App.css';
 
-const redirectUri = 'http://'
 
 class App extends Component {
   constructor(props) {
